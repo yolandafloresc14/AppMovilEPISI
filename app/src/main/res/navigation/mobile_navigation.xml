@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_anuncios">
+
+    <fragment
+        android:id="@+id/navigation_anuncios"
+        android:name="com.example.appmovilepisi.ui.anuncios.AnunciosFragment"
+        android:label="@string/title_anuncios"
+        tools:layout="@layout/fragment_anuncios" />
+
+    <fragment
+        android:id="@+id/navigation_becas"
+        android:name="com.example.appmovilepisi.ui.becas.BecasFragment"
+        android:label="Becas"
+        tools:layout="@layout/fragment_becas" />
+
+    <fragment
+        android:id="@+id/navigation_concursos"
+        android:name="com.example.appmovilepisi.ui.concursos.ConcursosFragment"
+        android:label="@string/title_concursos"
+        tools:layout="@layout/fragment_concursos" />
+
+    <fragment
+        android:id="@+id/navigation_capacitaciones"
+        android:name="com.example.appmovilepisi.ui.capacitaciones.CapacitacionesFragment"
+        android:label="@string/title_capacitaciones"
+        tools:layout="@layout/fragment_capacitaciones"/>
+
+    <fragment
+        android:id="@+id/navigation_episi"
+        android:name="com.example.appmovilepisi.ui.episi.EpisiFragment"
+        android:label="@string/title_episi"
+        tools:layout="@layout/fragment_episi"/>
+
+</navigation>
