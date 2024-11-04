@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_anuncios"
+        android:icon="@drawable/campaign_24px"
+        android:title="@string/title_anuncios" />
+
+    <item
+        android:id="@+id/navigation_becas"
+        android:icon="@drawable/becas_24px"
+        android:title="@string/title_becas" />
+
+    <item
+        android:id="@+id/navigation_concursos"
+        android:icon="@drawable/trophy_24px"
+        android:title="@string/title_concursos" />
+
+    <item
+        android:id="@+id/navigation_capacitaciones"
+        android:icon="@drawable/capacitaciones_24px"
+        android:title="@string/title_capacitaciones" />
+
+    <item
+        android:id="@+id/navigation_episi"
+        android:icon="@drawable/episi_24px"
+        android:title="@string/title_episi" />
+
+</menu>

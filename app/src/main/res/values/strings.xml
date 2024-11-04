@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">AppMovilEPISI</string>
+    <string name="app_name" translatable="false">AppMovilEPISI</string>
+    <string name="title_activity_main2" >MainActivity2</string>
+    <string name="title_anuncios" >Anuncios</string>
+    <string name="title_becas" >Becas</string>
+    <string name="title_concursos">Concursos</string>
+    <string name="title_capacitaciones">Capacitaciones</string>
+    <string name="title_episi">EPISI</string>
 </resources>
