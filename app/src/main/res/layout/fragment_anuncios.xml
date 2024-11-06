@@ -94,7 +94,7 @@
         android:layout_marginBottom="104dp"
         android:foregroundTint="#2196F3"
         android:src="@drawable/episi_24px"
-        android:tint="#2196F3"
+        android:tint="#E91E63"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textView11"
         app:layout_constraintStart_toStartOf="parent" />
@@ -106,8 +106,8 @@
         android:layout_marginEnd="220dp"
         android:layout_marginBottom="112dp"
         android:text="5 COMENTARIOS"
-        android:textColor="#03A9F4"
-        android:textColorLink="#03A9F4"
+        android:textColor="#E91E63"
+        android:textColorLink="#E91E63"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -115,16 +115,25 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="120dp"
         android:text="2020-05-15 | Calendario Academico"
         android:textColor="#ABB6AFAF"
-        tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="58dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.001" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="40dp"
         android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="26dp"
         android:src="@android:drawable/ic_menu_my_calendar"
-        tools:layout_editor_absoluteX="17dp"
-        tools:layout_editor_absoluteY="48dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 </androidx.constraintlayout.widget.ConstraintLayout>
